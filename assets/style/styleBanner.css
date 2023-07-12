@@ -1,0 +1,58 @@
+@keyframes pokeball{
+    0% {transform: translateY(10px);}
+    25% {transform: translateY(-10px);}
+    50% {transform: translateY(10px);}
+    75% {transform: translateY(-10px);}
+    100% {transform: translateY(10px);}
+}
+
+.banner-header{
+    background-image: url("../image/background-red.png");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    margin-top: -100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.banner-text{
+    margin-top: -150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.banner-text-first{
+    display: flex;
+    font-size: 8vw;
+    font-family: Lato;
+    color: #FFFFFF;
+    margin-bottom: 0px;
+}
+
+.banner-subtext{
+    font-size: 3vw;
+    font-family: Lato;
+    color: #FFFFFF; 
+}
+
+    /*  ÁREA POKEBOLA */
+.area-pokebola{
+   background-color: #dddddd; 
+   width: auto;
+}
+
+.pokebola-img{
+    position: absolute;
+    left: calc(50vw - 20vw);
+    bottom: -20vw;
+    box-sizing: border-box;
+    max-width: 40%;
+    animation-name: pokeball;
+    animation-duration: 10s ;
+    animation-iteration-count: infinite;
+}

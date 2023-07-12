@@ -1,0 +1,39 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.menuHeader {
+    height: 100px;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logoPokemon {
+    height: 50px;
+}
+
+.menuHeader nav ul li{
+    list-style: none;
+    margin: 3px;
+}
+
+.menuHeader nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.optionSearch {
+    text-decoration: none;
+    color: #FFF;
+    background-color: #F00;
+    font-weight: 900;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 258px;
+}

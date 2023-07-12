@@ -1,0 +1,86 @@
+.containerDisplay {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    min-width: 300px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 5px;
+}
+
+.areaCard {
+    box-sizing: border-box;
+    min-width: 212px;
+    height: 300px;
+    margin: 5px;
+    flex-basis: calc(15% - 10px);
+}
+
+.areaCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.photoName {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.photoName h4{
+    font-weight: 900;
+    font-size: 25px;
+    text-align: center;
+    color: #FFF;
+    margin-top: 10px;
+}
+
+.imagePokemon {
+    width: 80%;
+}
+
+.typePokemon {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.type {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 800;
+    background-color: #FFF;
+    padding: 5px 10px;
+    color: #000;
+    border-radius: 25px;
+    margin: 2px;
+}
+
+.buttonPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.before, .after {
+    background-color: aliceblue;
+    padding: 10px 10px;
+    font-size: 15px;
+    color: #FFF;
+    font-weight: 800;
+    background-color: #F00;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.before {
+    margin-right: 10px;
+}
